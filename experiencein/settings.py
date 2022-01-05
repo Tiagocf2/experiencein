@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '!ui0_wsnt_%@kf@t@-$n@ub)*&*7@=-7k*rt^^x(v(^ep4#r4t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['tiagocf2.pythonanywhere.com',]
 
