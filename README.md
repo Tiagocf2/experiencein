@@ -18,7 +18,6 @@ Ou clone o repositório para sua máquina
 $ git clone https://github.com/Tiagocf2/experiencein.git
 ```
 
-<br>
 Navegue para a pasta do projeto, depois faça o comando de migração para criar o banco de dados.
 
 ```shell
@@ -27,7 +26,6 @@ $ cd experiencein
 $ python manage.py migrate
 ```
 Por fim será preciso modificar o arquivo de configurações `experiencein/settings.py` da seguinte maneira:  
-<br>
 Mude `DEBUG` para `True` e remova tudo de `ALLOWED_HOSTS`.
 
 ```python
