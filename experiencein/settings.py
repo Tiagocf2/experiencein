@@ -25,7 +25,7 @@ SECRET_KEY = '!ui0_wsnt_%@kf@t@-$n@ub)*&*7@=-7k*rt^^x(v(^ep4#r4t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tiagocf2.pythonanywhere.com',]
 
 
 # Application definition
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
@@ -120,6 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/tiagocf2/experiencein/static'
 
 LOGIN_URL='/login/'
 LOGOUT_URL='/logout/'
